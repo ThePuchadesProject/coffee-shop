@@ -31,7 +31,7 @@ Demo: [coffeeshop.thepuchadesproject.com](https://coffeeshop.thepuchadesproject.
 
 As I work through the project, I plan to complete the following:
 
-- [ ] Create the layout and menu components using TailwindCSS.
+- [x] Create the layout and menu components using TailwindCSS.
 - [ ] Build a custom hook to manage the order logic.
 - [ ] Implement tip calculation and totals.
 - [ ] Add order persistence using `localStorage`.
@@ -77,7 +77,7 @@ Demo: [coffeeshop.thepuchadesproject.com](https://coffeeshop.thepuchadesproject.
 
 A medida que avance en el proyecto, iré completando:
 
-- [ ] Diseñar el layout y los componentes del menú con TailwindCSS.
+- [x] Diseñar el layout y los componentes del menú con TailwindCSS.
 - [ ] Crear un custom hook para centralizar la lógica del pedido.
 - [ ] Implementar el cálculo de propinas y totales.
 - [ ] Guardar la orden en localStorage.
