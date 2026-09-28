@@ -1,10 +1,10 @@
 import MenuItem from "./components/MenuItem";
 import OrderContents from "./components/OrderContents";
+import OrderTotals from "./components/OrderTotals";
 import { menuItems } from "./data/db";
 import useOrder from "./hooks/useOrder";
-
 export default function App() {
-  const { order, addItem } = useOrder();
+  const { order, addItem, removeItem } = useOrder();
   return (
     <>
       <header className="bg-yellow-950 py-5">
@@ -24,7 +24,9 @@ export default function App() {
           </div>
         </div>
         <div className="border border-dashed border-slate-300 p-5 rounded-lg space-y-10">
-          <OrderContents order={order} />
+          <OrderContents order={order} removeItem={removeItem} />
+
+          <OrderTotals order={order} />
         </div>
       </main>
     </>
