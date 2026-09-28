@@ -15,14 +15,19 @@ export default function OrderContents({
       <h2 className="font-black text-4xl">Your Order</h2>
 
       <div className="space-y-3 mt-10">
-        {order.length === 0 ? (
-          <p className="text-center">The order is empty</p>
-        ) : (
-          order.map((item) => (
-            <div
-              key={item.id}
-              className="flex justify-between items-center border-t border-gray-200 py-5 last-of-type:border-b"
-            >
+        {order.map((item) => (
+          <div
+            key={item.id}
+            className="flex justify-between items-center border-t border-gray-200 py-5 last-of-type:border-b"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-lg bg-[#241711] p-1.5 flex items-center justify-center shrink-0">
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
               <div>
                 <p className="text-lg">
                   {item.name} - {formatCurrency(item.price)}
@@ -32,15 +37,15 @@ export default function OrderContents({
                   {formatCurrency(item.price * item.quantity)}
                 </p>
               </div>
-              <button
-                className="bg-red-600 h-8 w-8 rounded-full text-white font-black cursor-pointer"
-                onClick={() => removeItem(item.id)}
-              >
-                X
-              </button>
             </div>
-          ))
-        )}
+            <button
+              className="bg-red-600 h-8 w-8 rounded-full text-white font-black cursor-pointer shrink-0"
+              onClick={() => removeItem(item.id)}
+            >
+              X
+            </button>
+          </div>
+        ))}
       </div>
     </div>
   );

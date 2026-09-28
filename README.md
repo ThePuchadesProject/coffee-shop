@@ -33,8 +33,7 @@ As I work through the project, I plan to complete the following:
 
 - [x] Create the layout and menu components using TailwindCSS.
 - [x] Build a custom hook to manage the order logic.
-- [ ] Implement tip calculation and totals.
-- [ ] Add order persistence using `localStorage`.
+- [x] Implement tip calculation and totals.
 
 ### How to run it locally
 
@@ -79,8 +78,7 @@ A medida que avance en el proyecto, iré completando:
 
 - [x] Diseñar el layout y los componentes del menú con TailwindCSS.
 - [x] Crear un custom hook para centralizar la lógica del pedido.
-- [ ] Implementar el cálculo de propinas y totales.
-- [ ] Guardar la orden en localStorage.
+- [x] Implementar el cálculo de propinas y totales.
 
 ### Cómo ejecutarlo en local
 

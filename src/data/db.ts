@@ -4,72 +4,85 @@ export const menuItems: MenuItem[] = [
   {
     id: 1,
     name: "Espresso",
+    image: "/img/espresso.webp",
+    description: "Strong and concentrated coffee with a rich aroma and a thick golden crema.",
     price: 2.0,
   },
-
   {
     id: 2,
     name: "Americano",
+    image: "/img/americano.webp",
+    description: "Rich espresso diluted with hot water for a smooth and balanced flavor.",
     price: 2.5,
   },
-
   {
     id: 3,
     name: "Cappuccino",
+    image: "/img/cappuccino.webp",
+    description: "Balanced espresso topped with steamed milk and a generous layer of foam.",
     price: 3.5,
   },
-
   {
     id: 4,
     name: "Latte",
+    image: "/img/latte.webp",
+    description: "Smooth espresso blended with plenty of steamed milk and a light foam top.",
     price: 3.8,
   },
-
   {
     id: 5,
     name: "Flat White",
+    image: "/img/flat-white.webp",
+    description: "Double shot of espresso combined with a velvety, smooth microfoam texture.",
     price: 3.8,
   },
-
   {
     id: 6,
     name: "Mocha",
+    image: "/img/mocha.webp",
+    description: "Delicious mix of espresso, steamed milk, and rich artisanal chocolate.",
     price: 4.0,
   },
-
   {
     id: 7,
     name: "Iced Coffee",
+    image: "/img/iced-coffee.webp",
+    description: "Freshly brewed coffee served cold over ice, refreshing and energizing.",
     price: 4.5,
   },
-
   {
     id: 8,
     name: "Chai Latte",
+    image: "/img/chai-coffee.webp",
+    description: "Spiced black tea infused with cardamom and cinnamon, mixed with warm milk.",
     price: 4.0,
   },
-
   {
     id: 9,
     name: "Croissant",
+    image: "/img/croissant.webp",
+    description: "Classic French pastry freshly baked every morning, flaky and buttery.",
     price: 2.5,
   },
-
   {
     id: 10,
     name: "Blueberry Muffin",
+    image: "/img/blueberry-muffin.webp",
+    description: "Soft and moist homemade muffin loaded with sweet wild blueberries.",
     price: 3.0,
   },
-
   {
     id: 11,
     name: "Cheesecake",
+    image: "/img/cheesecake.webp",
+    description: "Creamy baked classic cheesecake on a crunchy biscuit crumb crust.",
     price: 4.5,
   },
-
   {
     id: 12,
     name: "Chocolate Cookie",
+    image: "/img/chocolate-cookie.webp",
+    description: "Crispy on the edges and soft in the middle, packed with chocolate chips.",
     price: 2.0,
   },
 ];
