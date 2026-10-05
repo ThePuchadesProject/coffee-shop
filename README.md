@@ -22,7 +22,7 @@ Demo: [coffeeshop.thepuchadesproject.com](https://coffeeshop.thepuchadesproject.
 
 ### Tech stack
 
-- React 19
+- React 19 (using `useReducer` for complex state management)
 - TypeScript
 - TailwindCSS
 - Vite
@@ -67,7 +67,7 @@ Demo: [coffeeshop.thepuchadesproject.com](https://coffeeshop.thepuchadesproject.
 
 ### Tecnologías utilizadas
 
-- React 19
+- React 19 (implementando `useReducer` para la gestión de estados complejos)
 - TypeScript
 - TailwindCSS
 - Vite
